@@ -1,15 +1,11 @@
 package com.example.kiosk.level3;
 
-import com.example.kiosk.level3.MenuItem;
-import com.example.kiosk.level3.Main;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
 
-   private final List<MenuItem> menuItems;
+    private final List<MenuItem> menuItems;
 
     public Kiosk(List<MenuItem> menuItems) {
         this.menuItems = menuItems;
@@ -19,7 +15,7 @@ public class Kiosk {
 
     int selectMenu;
 
-    public void start () {
+    public void start() {
         while (true) {
             System.out.println("[ SHAKESHACK MENU ]");
 

@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05340df-436a-4d7a-9727-6884571751f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Kiosk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level5/Kiosk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level5/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level5/MenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Kiosk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Kiosk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Kiosk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Kiosk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,31 +49,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.kiosk [:com.example.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kiosk [:com.example.kiosk.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kiosk [:com.example.kiosk.ex.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kiosk [:com.example.kiosk.level1.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kiosk [:com.example.kiosk.level2.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kiosk [:com.example.kiosk.level4.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.kiosk [:com.example.Main.main()].executor": "Run",
+    "Gradle.kiosk [:com.example.kiosk.Main.main()].executor": "Run",
+    "Gradle.kiosk [:com.example.kiosk.ex.Main.main()].executor": "Run",
+    "Gradle.kiosk [:com.example.kiosk.level1.Main.main()].executor": "Run",
+    "Gradle.kiosk [:com.example.kiosk.level2.Main.main()].executor": "Run",
+    "Gradle.kiosk [:com.example.kiosk.level4.Main.main()].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ej/IdeaProjects/kiosk/src/main/java/com/example/kiosk/level5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/kiosk/level5" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.kiosk.level5" />
       <recent name="com.example.kiosk.level4" />
       <recent name="com.example.kiosk.level3" />
       <recent name="com.example.kiosk.level1" />
@@ -108,7 +120,7 @@
       <workItem from="1737094974079" duration="11105000" />
       <workItem from="1737184509138" duration="10343000" />
       <workItem from="1737279648395" duration="5600000" />
-      <workItem from="1737331438110" duration="6987000" />
+      <workItem from="1737331438110" duration="9477000" />
     </task>
     <servers />
   </component>

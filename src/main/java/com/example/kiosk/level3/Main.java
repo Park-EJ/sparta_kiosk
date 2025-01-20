@@ -1,10 +1,7 @@
 package com.example.kiosk.level3;
 
-import com.example.kiosk.level3.Kiosk;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +21,6 @@ public class Main {
         Kiosk kiosk = new Kiosk(menuItems);
 
         kiosk.start();
-
     }
 }
  

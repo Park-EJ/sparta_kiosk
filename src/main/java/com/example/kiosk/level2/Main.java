@@ -23,7 +23,6 @@ public class Main {
 
         int selectMenu;
 
-        // 반복문을 활용해 List 안에 있는 MenuItem을 하나씩 출력
         while (true) {
             System.out.println("[ SHAKESHACK MENU ]");
 
@@ -56,4 +55,3 @@ public class Main {
         sc.close();
     }
 }
- 

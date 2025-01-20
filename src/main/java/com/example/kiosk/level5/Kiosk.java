@@ -1,11 +1,11 @@
-package com.example.kiosk.level4;
+package com.example.kiosk.level5;
 
 import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
 
-    public final List<Menu> menus;
+    private final List<Menu> menus;
 
     public Kiosk(List<Menu> menus) {
         this.menus = menus;
@@ -31,12 +31,14 @@ public class Kiosk {
                 } else if (menuInput < 0 || menuInput > 3) {
                     System.out.println("잘못 입력하였습니다.");
                     System.out.println("다시 입력하세요.");
+                    System.out.println();
                     continue;
                 }
             } catch (Exception e) {
                 System.out.println("잘못 입력하였습니다.");
                 System.out.println("다시 입력하세요.");
                 sc.nextLine();
+                System.out.println();
                 continue;
             }
 
@@ -72,5 +74,9 @@ public class Kiosk {
             }
             System.out.println();
         }
+    }
+
+    public List<Menu> getMenus() {
+        return menus;
     }
 }
