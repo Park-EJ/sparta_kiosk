@@ -2,9 +2,9 @@ package com.example.kiosk.level4;
 
 public class MenuItem {
 
-    String menuName;
-    double menuPrice;
-    String menuDetail;
+    public String menuName;
+    public double menuPrice;
+    public String menuDetail;
 
     public MenuItem(String menuName, double menuPrice, String menuDetail) {
         this.menuName = menuName;
