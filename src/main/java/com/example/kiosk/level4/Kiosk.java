@@ -31,12 +31,14 @@ public class Kiosk {
                 } else if (menuInput < 0 || menuInput > 3) {
                     System.out.println("잘못 입력하였습니다.");
                     System.out.println("다시 입력하세요.");
+                    System.out.println();
                     continue;
                 }
             } catch (Exception e) {
                 System.out.println("잘못 입력하였습니다.");
                 System.out.println("다시 입력하세요.");
                 sc.nextLine();
+                System.out.println();
                 continue;
             }
 
