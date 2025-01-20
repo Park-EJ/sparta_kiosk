@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05340df-436a-4d7a-9727-6884571751f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level2/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Kiosk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Kiosk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level4/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kiosk/level3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,30 +42,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.kiosk [:com.example.Main.main()].executor": "Run",
-    "Gradle.kiosk [:com.example.kiosk.Main.main()].executor": "Run",
-    "Gradle.kiosk [:com.example.kiosk.ex.Main.main()].executor": "Run",
-    "Gradle.kiosk [:com.example.kiosk.level1.Main.main()].executor": "Run",
-    "Gradle.kiosk [:com.example.kiosk.level2.Main.main()].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.kiosk [:com.example.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kiosk [:com.example.kiosk.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kiosk [:com.example.kiosk.ex.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kiosk [:com.example.kiosk.level1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kiosk [:com.example.kiosk.level2.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kiosk [:com.example.kiosk.level4.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.kiosk.level4" />
       <recent name="com.example.kiosk.level3" />
       <recent name="com.example.kiosk.level1" />
     </key>
@@ -111,11 +102,29 @@
       <workItem from="1736813920303" duration="23896000" />
       <workItem from="1736855653806" duration="127000" />
       <workItem from="1736916732757" duration="17313000" />
+      <workItem from="1736941024274" duration="1305000" />
+      <workItem from="1736942818635" duration="21000" />
+      <workItem from="1737001758638" duration="13424000" />
+      <workItem from="1737094974079" duration="11105000" />
+      <workItem from="1737184509138" duration="10343000" />
+      <workItem from="1737279648395" duration="5600000" />
+      <workItem from="1737331438110" duration="6987000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

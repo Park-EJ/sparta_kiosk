@@ -24,6 +24,7 @@ public class Main {
         Kiosk kiosk = new Kiosk(menuItems);
 
         kiosk.start();
+
     }
 }
  
